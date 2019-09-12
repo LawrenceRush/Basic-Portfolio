@@ -1,3 +1,6 @@
+body{
+    font-family: "apercu",sans-serif;
+}
 h1{
    background-color:  #4AAAA5;
    color: white;
@@ -10,7 +13,34 @@ h1{
     padding:0;
 }
 
+
 nav {
     display: inline-block;
+    text-align: right;
+    margin-left: 0;
+}
+
+#nav-container{
+    float: right;
+    padding: 25px 10px 10px 10px;
+    margin-right: 25vh;
+}
+
+a{
+    color: rgb(175, 170, 170); text-decoration: none;
+    padding-left: .7em;
     
+}
+
+.border-right{
+border-right: solid .1em;
+padding-right: .9em;
+height:100px;
+
+}
+
+#content-div{
+   background-image: url("../images/gravel.png");
+   height: 100%;
+
 }
