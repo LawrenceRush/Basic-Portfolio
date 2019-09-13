@@ -1,5 +1,6 @@
 body{
     font-family: "apercu",sans-serif;
+    background-image: url("../images/gravel.png");
 }
 h1{
    background-color:  #4AAAA5;
@@ -7,6 +8,7 @@ h1{
    padding: 10px 10px 10px 10px;
    display: inline-block;
    margin-left: 25vh;
+   margin-top:10px;
 }
 *{
     margin:0;
@@ -21,13 +23,20 @@ nav {
 }
 
 #nav-container{
-    float: right;
+    
+    
     padding: 25px 10px 10px 10px;
-    margin-right: 25vh;
+    display: inline-block;
+    margin-top:10px;
+    margin-right:25vh;
+    
+    
+    
 }
 
 a{
-    color: rgb(175, 170, 170); text-decoration: none;
+    color: rgb(175, 170, 170); 
+    text-decoration: none;
     padding-left: .7em;
     
 }
@@ -39,8 +48,38 @@ height:100px;
 
 }
 
-#content-div{
-   background-image: url("../images/gravel.png");
-   height: 100%;
 
+#header{
+    background-color:#FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-content{
+    display:block;
+    overflow:auto;
+    background-color:#FFFFFF; 
+}
+#footer{
+    position: fixed;
+    bottom:0;
+    background-color: #4AAAA5;
+    height: 7%;
+    width:100%;
+    
+}
+
+#footer-inner{
+    position: absolute;
+    background-color: rgb(71, 71, 71);
+    bottom:0px;
+    height: 90%;
+    width:100%;
+    color: rgb(175, 170, 170);
+    text-align:center;
+    
+}
+
+#footer-text{
+    margin-top:3vh;
 }
