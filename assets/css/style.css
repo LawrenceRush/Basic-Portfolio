@@ -140,3 +140,37 @@ h2{
      margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.port-image{
+    height:125px;
+    width: 125px;
+}
+
+#grid-container{
+    display:grid;
+    grid-template-columns: 125px 125px;
+    justify-content: space-evenly;
+    grid-row-gap:10px;
+    
+    
+
+}
+
+.grid-item{
+    width:125px;
+    /* position: relative; */
+}
+
+#middle-port{
+    padding-top:20px;
+}
+
+/* .img-title{
+    height:10px;
+    width:100%;
+    background-color: #4AAAA5;
+    position: absolute;
+    right: -11px;
+    bottom: 14px;
+
+} */
