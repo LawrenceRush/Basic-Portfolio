@@ -148,7 +148,7 @@ h2{
 
 #grid-container{
     display:grid;
-    grid-template-columns: 125px 125px;
+    grid-template-columns: 130px 130px;
     justify-content: space-evenly;
     grid-row-gap:10px;
     
@@ -158,19 +158,27 @@ h2{
 
 .grid-item{
     width:125px;
-    /* position: relative; */
+    position: relative; 
+    right:5px;
+    
 }
 
 #middle-port{
     padding-top:20px;
 }
 
-/* .img-title{
-    height:10px;
-    width:100%;
+.img-title{
+    height:22px;
+    width:101%;
     background-color: #4AAAA5;
     position: absolute;
-    right: -11px;
+    right: -13px;
     bottom: 14px;
+    color:white;
+    text-align: center;
+    line-height: 1.5em;
 
-} */
+} 
+.border{
+    border: 1px solid black;
+}
